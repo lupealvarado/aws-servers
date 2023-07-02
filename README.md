@@ -60,7 +60,7 @@ I would like to thank my professors and peers for their guidance and support thr
 Please note that this project was done as part of my university coursework and is not intended for production use. Always follow best practices when working with AWS services in a production environment.
 
 ## License
-This project is licensed underthe MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 If you have any questions or feedback, feel free to reach out to me. You can also raise an issue in this repository.
