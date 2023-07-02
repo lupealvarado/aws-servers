@@ -1,24 +1,57 @@
-# Deploying Windows Server 2022 and Linux Servers in AWS
+AWS Server Management Project
+=============================
 
-This project involves the deployment of Windows Server 2022 and Linux servers in AWS. The servers will serve as the basis for future projects. The deliverables include a Word document with installation screenshots and saved command outputs. The Windows server must meet specific requirements, including being fully patched with Windows Updates, while the Linux server must also be fully patched. 
+Welcome to my AWS Server Management project! This project was a deep dive into managing AWS servers, deploying Windows Server 2022 and Amazon Linux 2 AMI, and exploring the functionalities of cloud storage. I also got my hands dirty with Active Directory on Windows Server, creating Organizational Units (OUs), Users, Groups, and Group Policy Objects (GPOs). Additionally, I performed networking tasks on both Windows and Linux servers, including user creation, file sharing, and permission setting.
 
-## Project Steps
-1. The first step of the project involved deploying Windows Server 2022 and Linux servers in AWS. This was done using the AWS Academy Learner Lab. 
-2. After deploying the servers, the next step was to ensure that they were fully patched. This was done by running Windows Updates for the Windows server and updating the Linux server as well. 
-3. Throughout the installation process, I took screenshots to document the steps. This was particularly important for the Windows Server installation, where I had to capture the “Last installed updates” date from the Server Manager. 
-4. In addition to taking screenshots, I also saved the output from various commands. This was particularly important when setting a static IP address for the Windows Server.
+Project Overview
+----------------
 
-## Challenges and Learnings
-- Understanding the AWS environment and deploying the servers was initially challenging, but with some practice, I was able to get the hang of it.
-- Ensuring that the servers were fully patched was a meticulous task that required attention to detail.
-- Taking screenshots and saving command outputs helped me understand the process better and served as a good reference for future projects.
+The project was divided into two main parts:
 
-## Conclusion
+### 1\. Windows Server 2022 Deployment
 
-This project was a great learning experience. It provided hands-on experience with AWS and server deployment, and it helped solidify my understanding of these concepts. I look forward to applying these skills in future projects.
+This part of the project involved setting up a Windows Server 2022 instance on AWS. Here are the steps I followed:
 
-## Future Work
-In the future, I plan to explore more AWS services and apply the knowledge gained from this project to real-world applications. I also plan to improve my understanding of auto scaling and load balancing as these are crucial for building scalable and highly available applications.
+-   Instance Creation: I created a new instance on AWS, choosing Windows Server 2022 as the operating system.
+
+-   Active Directory Configuration: After setting up the server, I installed and configured Active Directory. This involved creating a new forest and setting up a domain controller.
+
+-   OU, Users, Groups, and GPOs: I created several Organizational Units (OUs), each with its own set of users and groups. I also created Group Policy Objects (GPOs) and linked them to the OUs.
+
+-   Windows Updates: To ensure the server was secure and up-to-date, I fully patched it with Windows Updates.
+
+### 2\. Amazon Linux 2 AMI Deployment
+
+This part of the project involved setting up an Amazon Linux 2 AMI instance on AWS. Here are the steps I followed:
+
+-   Instance Creation: I created a new instance on AWS, choosing Amazon Linux 2 AMI as the operating system.
+
+-   User Creation: I created several users, each with their own home directory and login credentials.
+
+-   File Sharing: I set up file sharing between the users, ensuring that each user had the correct permissions for their files.
+
+-   Permission Setting: I managed the permissions of the files and directories, ensuring that only the appropriate users had access.
+
+-   Linux Updates: To ensure the server was secure and up-to-date, I fully patched it with the latest updates.
+
+Challenges and Learnings
+------------------------
+
+Throughout the project, I faced a few challenges. The most significant one was understanding the intricacies of Active Directory and its configuration. However, with some research and hands-on practice, I was able to overcome this hurdle.
+
+Another challenge was managing permissions on both Windows and Linux servers. The differences in the two systems required me to adapt quickly and learn the specifics of each.
+
+Despite these challenges, I learned a lot from this project. It gave me a deeper understanding of server management, especially in a cloud environment like AWS. I also gained practical experience with both Windows and Linux servers, which will be invaluable in my future projects.
+
+Future Work
+-----------
+
+In the future, I plan to explore more AWS services and apply the knowledge gained from this project to real-world applications. I also aim to delve deeper into Linux server management and shell scripting.
+
+Conclusion
+----------
+
+This project was a great learning experience for me. It was challenging at times, but the knowledge and skills I gained made it all worthwhile. I hope that the resources in this repository will be helpful to others who are learning about AWS and server management.
 
 ## Acknowledgements
 I would like to thank my professors and peers for their guidance and support throughout this project. I would also like to thank AWS for providing the resources needed to complete this project.
